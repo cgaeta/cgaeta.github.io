@@ -19,7 +19,7 @@ body {
 .footer {
 	position: relative;
   width: 100%;
-  height: 250px;
+  height: 280px;
 	padding: 10px 0 0;
   background-color: rgb(120, 120, 120);
   box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .5);
@@ -154,6 +154,9 @@ body {
   line-height: 1.5em;
   text-align: center;
   color: rgb(0, 0, 0);
+	transform: scaleY(1);
+transition: .5s transform ease-in;
+	transform-origin: bottom;
 }
 
 #wrapper {
@@ -287,4 +290,23 @@ body {
 .bold {
 	font-weight: 700;
 	font-size: 1.1em;
+}
+
+.feedback {
+	color: rgb(255, 255, 255);
+	width: 14em;
+	margin: 0 0 0 auto;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	transform: scaleY(0);
+	transition: transform;
+}
+
+.feedback.show {
+	transform: scaleY(1);
+}
+
+.feedback.show ~ .submit {
+	transform: scaleY(0);
 }

@@ -86,7 +86,7 @@
 			});
 
 			req.addEventListener("load", function(d){
-				fb.innerHTML = d.responseText;
+				fb.innerHTML = this.responseText;
 
 				window.setTimeout(function(){
 					fb.classList.remove("show");
