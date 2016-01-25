@@ -17,6 +17,7 @@ body {
 }
 
 .footer {
+	position: relative;
   width: 100%;
   height: 250px;
 	padding: 10px 0 0;
@@ -57,11 +58,13 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.navlink:after {
+.navlink:after,
+.name:after {
 	content: '';
 	display: block;
 	height: 5px;
-	width: 144px;
+	/* width: 144px; */
+	width: 100%;
 	position: absolute;
 	top: 25px;
 	left: 0;
@@ -73,7 +76,12 @@ body {
 	transition: .5s all ease-in;
 }
 
-.navlink:hover:after {
+.name:after {
+	top: 50px;
+}
+
+.navlink:hover:after,
+.name:hover:after {
 	-webkit-transform: scaleY(1);
 	-ms-transform: scaleY(1);
 	transform: scaleY(1);
@@ -125,6 +133,7 @@ body {
 
 .name {
 	display: inline-block;
+	position: relative;
   width: 300px;
   font-size: 3em;
   font-weight: 400;
@@ -135,18 +144,14 @@ body {
 
 .submit {
   display: block;
-  width: 46.8453713123%;
-  height: 25px;
-  margin-top: 10px;
-  margin-left: 53.11801%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  width: 10em;
+  height: 1.5em;
+  margin: 0 0 0 auto;
+  border-radius: 3px;
   background-color: rgb(222, 222, 222);
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.38;
+  line-height: 1.5em;
   text-align: center;
   color: rgb(0, 0, 0);
 }
@@ -168,12 +173,14 @@ body {
 }
 
 #contact {
+	display: inline-block;
   width: 32%;
 	min-width:240px;
-	max-width: 300px
+	max-width: 300px;
   height: 220px;
   margin-top: 15px;
   margin-left: 8.49284%;
+	vertical-align: bottom;
 }
 
 #guestname,
@@ -188,17 +195,17 @@ body {
   color: rgb(0, 0, 0);
 }
 
-#guestname:invalid + .namelabel,
-#guestemail:invalid + .emaillabel,
-#guestmessage:invalid + .messagelabel{
+#guestname.filled:invalid + .namelabel,
+#guestemail.filled:invalid + .emaillabel,
+#guestmessage.filled:invalid + .messagelabel{
 	color: rgb(255, 0, 0);
 	opacity: .5;
 	font-weight: 700;
 }
 
-#guestname:valid + .namelabel,
-#guestemail:valid + .emaillabel,
-#guestmessage:valid + .messagelabel {
+#guestname.filled:valid + .namelabel,
+#guestemail.filled:valid + .emaillabel,
+#guestmessage.filled:valid + .messagelabel {
 	opacity: .75;
 }
 
@@ -244,15 +251,16 @@ body {
 }
 
 #copyright {
-  float: right;
-  width: 32%;
-  min-height: 15px;
-  margin-top: 220px;
-  margin-right: 5%;
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5%;
+	min-height: 15px;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.38;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+	vertical-align: bottom;
 }
 
 #guestmessage {
