@@ -81,7 +81,7 @@
 
 			var fb = document.querySelector(".feedback");
 			req.addEventListener("progress", function(){
-				fb.innerHTML("Wait for it...");
+				fb.innerHTML= "Wait for it...";
 			fb.classList.add("show");
 			});
 
@@ -95,7 +95,7 @@
 			});
 
 			req.addEventListener("error", function(){
-				fb.innerHTML("Sorry, I couldn't send your email to Chris... Try again later?")
+				fb.innerHTML = "Sorry, I couldn't send your email to Chris... Try again later?";
 			});
 			
 			req.open("post", form.action);
