@@ -1,0 +1,60 @@
+.offset1 {
+  margin-left: 1em;
+}
+
+.personal {
+  width: 100%;
+  height: 70px;
+}
+
+.resume {
+  width: 82.9166666666%;
+  margin: 30px auto;
+}
+
+.personal p {
+  width: 100%;
+  min-height: 26px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.resumeSection p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.offset2 {
+  margin-left: 2em;
+}
+
+.resumeSection h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+	font-family: 'Open Sans';
+}
+
+.resumeSection {
+	margin: 20px auto;
+}
+
+.degree,
+.job,
+.project,
+.skillset {
+	margin-top: 10px;
+}
+
+.offset3 {
+	margin-left: 3em
+}
+
+.skill {
+	margin: 10px 0 0;
+}

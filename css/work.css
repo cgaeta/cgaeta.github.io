@@ -1,0 +1,115 @@
+.projectImg {
+  width: 240px;
+  /* height: 150px; */
+	display: inline-block;
+  margin-top: 43px;
+  margin-left: 0;
+  background-color: rgb(222, 222, 222);
+	vertical-align: top;
+}
+
+.projectdesc {
+  width: 59.0351995293%;
+  /* height: 150px; */
+	display: inline-block;
+  margin-top: 43px;
+  margin-left: 2.45122%;
+	vertical-align: top;
+}
+
+.projects {
+  width: 82.9996744791%;
+	margin: 33px auto;
+  height: 246px;
+}
+
+.seeMore {
+  display: block;
+  width: 30.5699309978%;
+  height: 2em;
+	line-height: 2em;
+  margin-top: 17px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+  background-color: rgb(128, 128, 128);
+}
+
+.projectName {
+  min-height: 35px;
+  font-size: 1.4em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.projectText {
+  min-height: 44px;
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.projectsInDetail {
+	background-color: rgb(224, 224, 224);
+	padding: 20px 0;
+}
+
+.dia2_img1 {
+	display: inline-block;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+	top: 320px;
+}
+
+.detailName {
+	font-size: 1.3em;
+	font-weight: 700;
+}
+
+.detailDesc {
+	display: inline-block;
+	max-width: 54%;
+	vertical-align: top;
+	margin: 10px 20px;
+}
+
+.detailText {
+	margin: 15px 0;
+	font-weight: 400;
+}
+
+.detailImages {
+	margin: 0px 0 20px 8.5%;
+	width: 180px;
+	display: inline-block;
+	position: relative;
+}
+
+.dia2_img2 {
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	margin: 20px auto;
+	clip: rect(100px, 240px, 230px, 0px);
+	top: -120px;
+}
+
+.dia2_img3 {
+	position: absolute;
+	top: 150px;
+}
+
+.detailLinks a {
+	text-decoration: underline;
+}
+
+#dia2_details {
+	min-height: 480px
+}
+
+.vstarImages {
+	margin: 80px 0 0;
+}
