@@ -154,8 +154,13 @@ body {
   line-height: 1.5em;
   text-align: center;
   color: rgb(0, 0, 0);
+	-webkit-transform: scaleY(1);
+	-ms-transform: scaleY(1);
 	transform: scaleY(1);
+-webkit-transition: .5s -webkit-transform ease-in;
 transition: .5s transform ease-in;
+	-webkit-transform-origin: bottom;
+	-ms-transform-origin: bottom;
 	transform-origin: bottom;
 }
 
@@ -250,6 +255,7 @@ transition: .5s transform ease-in;
   line-height: 1.38;
   color: rgb(255, 255, 255);
 	opacity: 0;
+	-webkit-transition: .5s opacity ease-in;
 	transition: .5s opacity ease-in;
 }
 
@@ -299,14 +305,22 @@ transition: .5s transform ease-in;
 	height: 1.5em;
 	line-height: 1.5em;
 	text-align: center;
+	-webkit-transform: scaleY(0);
+	-ms-transform: scaleY(0);
 	transform: scaleY(0);
-	transition: transform;
+	-webkit-transition: .5s -webkit-transform ease-in, .5s opacity ease-in;
+	transition: .5s transform ease-in, .5s opacity ease-in;
 }
 
-.feedback.show {
+#contact .feedback.show {
+	-webkit-transform: scaleY(1);
+	-ms-transform: scaleY(1);
 	transform: scaleY(1);
+	opacity: 1;
 }
 
 .feedback.show ~ .submit {
+	-webkit-transform: scaleY(0);
+	-ms-transform: scaleY(0);
 	transform: scaleY(0);
 }
