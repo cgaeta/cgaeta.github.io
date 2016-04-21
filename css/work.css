@@ -1,19 +1,19 @@
 .projectImg {
-  width: 240px;
-  /* height: 150px; */
+	width: 240px;
+	/* height: 150px; */
 	display: inline-block;
-  margin-top: 43px;
-  margin-left: 0;
-  background-color: rgb(222, 222, 222);
+	margin-top: 43px;
+	margin-left: 0;
+	background-color: rgb(222, 222, 222);
 	vertical-align: top;
 }
 
 .projectdesc {
-  width: 59.0351995293%;
-  /* height: 150px; */
+	width: 59.0351995293%;
+	/* height: 150px; */
 	display: inline-block;
-  margin-top: 43px;
-  margin-left: 2.45122%;
+	margin-top: 43px;
+	margin-left: 2.45122%;
 	vertical-align: top;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .detailName {
-	font-size: 1.3em;
+	font-size: 2em;
 	font-weight: 700;
 }
 
