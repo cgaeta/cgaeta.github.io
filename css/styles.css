@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(230, 230, 230);
+  /* background-color: rgb(230, 230, 230); */
   font-family: 'Open Sans';
   font-size: 1em;
   font-weight: 400;
@@ -11,9 +11,10 @@ body {
   width: 100%;
   /* height: 800px; */
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5);
-	margin: 0;
-	padding: 20px 0 20px;
+  /* box-shadow: 0 0 10px 2px rgba(0, 0, 0, .5); */
+  border: #aaaaaa dashed 2px;
+  margin: 0;
+  padding: 20px 15px 20px;
 }
 
 .footer {
@@ -70,7 +71,6 @@ body {
 	left: 0;
 	background: rgba(0, 0, 0, .5);
 	-webkit-transform: scaleY(0);
-	-ms-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transition: .5s all ease-in;
 	transition: .5s all ease-in;
@@ -79,7 +79,6 @@ body {
 .navlink.current:after,
 .name.current:after {
 	-webkit-transform: scaleY(0.25);
-	-ms-transform: scaleY(0.25);
 	transform: scaleY(0.25);
 }
 
@@ -90,15 +89,16 @@ body {
 .navlink:hover:after,
 .name:hover:after {
 	-webkit-transform: scaleY(1);
-	-ms-transform: scaleY(1);
 	transform: scaleY(1);
 	background: rgba(0, 0, 0, 1);
 }
 
 .section {
-  width: 82.9166666666%;
+  width: 90%;
   height: 280px;
   margin: 50px auto;
+  padding: 10px 2.5%;
+  border: #aaaaaa dashed 2px;
 }
 
 
@@ -162,18 +162,17 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
 	-webkit-transform: scaleY(1);
-	-ms-transform: scaleY(1);
 	transform: scaleY(1);
 -webkit-transition: .5s -webkit-transform ease-in;
+-webkit-transition: .5s transform ease-in;
 transition: .5s transform ease-in;
 	-webkit-transform-origin: bottom;
-	-ms-transform-origin: bottom;
 	transform-origin: bottom;
 }
 
 #wrapper {
-  width: 80%;
-	min-width: 800px;
+  width: 90%;
+  min-width: 800px;
   margin: 20px auto;
 }
 
@@ -183,8 +182,10 @@ transition: .5s transform ease-in;
 
 #navigation {
   width: 82.9166666666%;
-  height: 48px;
+  height: 80px;
   margin: 0 auto;
+	padding: 15px;
+	border: #aaaaaa dashed 2px;
 }
 
 #contact {
@@ -314,21 +315,19 @@ transition: .5s transform ease-in;
 	line-height: 1.5em;
 	text-align: center;
 	-webkit-transform: scaleY(0);
-	-ms-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transition: .5s -webkit-transform ease-in, .5s opacity ease-in;
+	-webkit-transition: .5s transform ease-in, .5s opacity ease-in;
 	transition: .5s transform ease-in, .5s opacity ease-in;
 }
 
 #contact .feedback.show {
 	-webkit-transform: scaleY(1);
-	-ms-transform: scaleY(1);
 	transform: scaleY(1);
 	opacity: 1;
 }
 
 .feedback.show ~ .submit {
 	-webkit-transform: scaleY(0);
-	-ms-transform: scaleY(0);
 	transform: scaleY(0);
 }
