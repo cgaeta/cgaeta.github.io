@@ -1,119 +1,119 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1.0">
-	<title>Chris Gaeta</title>
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/standardize.css">
-	<link rel="stylesheet" href="css/index-grid.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Chris Gaeta</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index-grid.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<div id="wrapper">
-		<div id="content">
-			<div class="body">
-				<nav id="navigation">
-					<a href="#"><h1 class="name current">Chris Gaeta</h1></a>
-					<a href="portfolio.html" class="navlink">Portfolio</a>
-					<a href="resume.html" class="navlink">Resume</a>
-				</nav>
-				<div id="intro" class="section">
-					<img id="heroImg" src="img/index_hero_mobile.jpg" alt="" sizes="64vw" srcset="img/index_hero_mobile.jpg 320w, img/index_hero_med.jpg 640w, img/index_hero_large.jpg 800w, img/index_hero_huge.jpg 1024w, img/index_hero_super.jpg 1280w" />
-					<div class="gradient">
-						<p class="introtext"><span>Hey</span>I'm a UX researcher, designer, and developer.</p>
-						<p class="introaside">And then I dance and play video games.</p>
-						<a id="worklink" href="work.html">My Portfolio</a>
-					</div>
-				</div>
-				<div id="about_me" class="section">
-					<p class="about_text">I've gone from dreaming about <span class='black'>game development</span> to <span class='black'>web development</span>, developing a <span class='black'>Latin dance</span> addiction, and finally landed on <span class='black'>UX development</span>.<span class="about_aside">But hey, I'm consistently developing!</span></p><!--
-					--><img id="profile_photo" src="img/profile_picture_120.jpg" sizes="20vw" srcset="img/profile_picture_120.jpg 120w, img/profile_picture_240.jpg 240w, img/profile_picture_360.jpg 360w" alt="Chris Gaeta" title="Chris Gaeta" />
-				</div>
-				<div id="skills" class="section">
-					<div class="skill">
-						<img src="img/index_ixd_120.jpg" class="skillicon" />
-						<div class="skilltext">
-							<h3>Interaction design</h3>
-							<p class="skilldesc">Well designed products consider the <span class='black'>user's goals</span> and try to plan out the <span class="black">behaviors</span> users engaging with the product. Tools like <span class="black">personas</span> are helpful here.</p>
-						</div>
-					</div><!--
-					--><div class="skill">
-						<img src="img/index_developer_120.png" class="skillicon" />
-						<div class="skilltext">
-							<h3>Development</h3>
-							<p class="skilldesc">Using <span class='black'>HTML, CSS, and Javascript</span>, I can create <span class='black'>interactive prototypes</span> with <span class='black'>production quality</span> code.</p>
-						</div>
-					</div><!--
-					--><div class="skill">
-						<img src="img/meeting_photo_120.jpg" class="skillicon" />
-						<div class="skilltext">
-							<h3>User research</h3>
-							<p class="skilldesc">Successful products <span class='black'>solve a problem</span> for their users. The trick is <span class='black'>knowing your users</span> well enough to know their problems.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer">
-				<form id="contact" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
-					<input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
-					<label class="namelabel" for="guestname">Name</label>
-					<input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
-					<label class="emaillabel" for="guestemail">Email</label>
-					<textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
-					<label class="messagelabel" for="guestmessage">Message</label>
-					<label class="feedback"></label>
-					<input type="submit" class="submit" value="Send" />
-				</form>
-				<p id="copyright">&copy; 2016 by Chris Gaeta</p>
-			</div>
-		</div>
-	</div>
-	<script>
-		// this is a change for git
-		// select inputs and textarea and add
-			// eventlisteners to them for onchange
-		var inputs = document.querySelectorAll("input, textarea");
-		for(var i = 0; i < inputs.length; i++){
-			if(inputs[i].className !== "submit")
-				inputs[i].addEventListener("input", function(){
-					if(this.value === "")
-						this.classList.remove("filled");
-					else
-						this.classList.add("filled");
-				});
-		}
-		
-		// setup eventlisteners for AJAX request and send email
-		function AJAXReq(form){
-			if(!form) return;
+  <div id="wrapper">
+    <div id="content">
+      <div class="body">
+        <nav id="navigation">
+          <a href="#"><h1 class="name current">Chris Gaeta</h1></a>
+          <a href="portfolio.html" class="navlink">Portfolio</a>
+          <a href="resume.html" class="navlink">Resume</a>
+        </nav>
+        <div id="intro" class="section">
+          <img id="heroImg" src="img/index_hero_mobile.jpg" alt="" sizes="64vw" srcset="img/index_hero_mobile.jpg 320w, img/index_hero_med.jpg 640w, img/index_hero_large.jpg 800w, img/index_hero_huge.jpg 1024w, img/index_hero_super.jpg 1280w" />
+          <div class="gradient">
+            <p class="introtext"><span>Hey</span>I'm a UX researcher, designer, and developer.</p>
+            <p class="introaside">And then I dance and play video games.</p>
+            <a id="worklink" href="work.html">My Portfolio</a>
+          </div>
+        </div>
+        <div id="about_me" class="section">
+          <p class="about_text">I've gone from dreaming about <span class='black'>game development</span> to <span class='black'>web development</span>, developing a <span class='black'>Latin dance</span> addiction, and finally landed on <span class='black'>UX development</span>.<span class="about_aside">But hey, I'm consistently developing!</span></p><!--
+          --><img id="profile_photo" src="img/profile_picture_120.jpg" sizes="20vw" srcset="img/profile_picture_120.jpg 120w, img/profile_picture_240.jpg 240w, img/profile_picture_360.jpg 360w" alt="Chris Gaeta" title="Chris Gaeta" />
+        </div>
+        <div id="skills" class="section">
+          <div class="skill">
+            <img src="img/index_ixd_120.jpg" class="skillicon" />
+            <div class="skilltext">
+              <h3>Interaction design</h3>
+              <p class="skilldesc">Good products are designed for <span class='black'>user's goals</span> and their <span class="black">behaviors</span>. <span class="black">Personas</span> are helpful a tool.</p>
+            </div>
+          </div><!--
+          --><div class="skill">
+            <img src="img/index_developer_120.png" class="skillicon" />
+            <div class="skilltext">
+              <h3>Development</h3>
+              <p class="skilldesc">Using <span class='black'>HTML, CSS, and Javascript</span>, I can create <span class='black'>interactive prototypes</span> with <span class='black'>production quality</span> code.</p>
+            </div>
+          </div><!--
+          --><div class="skill">
+            <img src="img/meeting_photo_120.jpg" class="skillicon" />
+            <div class="skilltext">
+              <h3>User research</h3>
+              <p class="skilldesc">Successful products <span class='black'>solve a problem</span> for their users. The trick is <span class='black'>knowing your users</span> well enough to know their problems.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <form id="contact" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
+          <input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
+          <label class="namelabel" for="guestname">Name</label>
+          <input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
+          <label class="emaillabel" for="guestemail">Email</label>
+          <textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
+          <label class="messagelabel" for="guestmessage">Message</label>
+          <label class="feedback"></label>
+          <input type="submit" class="submit" value="Send" />
+        </form>
+        <p id="copyright">&copy; 2016 by Chris Gaeta</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    // this is a change for git
+    // select inputs and textarea and add
+      // eventlisteners to them for onchange
+    var inputs = document.querySelectorAll("input, textarea");
+    for(var i = 0; i < inputs.length; i++){
+      if(inputs[i].className !== "submit")
+        inputs[i].addEventListener("input", function(){
+          if(this.value === "")
+            this.classList.remove("filled");
+          else
+            this.classList.add("filled");
+        });
+    }
+    
+    // setup eventlisteners for AJAX request and send email
+    function AJAXReq(form){
+      if(!form) return;
 
-			// not supporting old IE versions
-			var req = new XMLHttpRequest();
+      // not supporting old IE versions
+      var req = new XMLHttpRequest();
 
-			var fb = document.querySelector(".feedback");
-			req.addEventListener("progress", function(){
-				fb.innerHTML= "Wait for it...";
-			fb.classList.add("show");
-			});
+      var fb = document.querySelector(".feedback");
+      req.addEventListener("progress", function(){
+        fb.innerHTML= "Wait for it...";
+      fb.classList.add("show");
+      });
 
-			req.addEventListener("load", function(d){
-				fb.innerHTML = this.responseText;
+      req.addEventListener("load", function(d){
+        fb.innerHTML = this.responseText;
 
-				window.setTimeout(function(){
-					fb.classList.remove("show");
-				}, 2000);
+        window.setTimeout(function(){
+          fb.classList.remove("show");
+        }, 2000);
 
-			});
+      });
 
-			req.addEventListener("error", function(){
-				fb.innerHTML = "Sorry, I couldn't send your email to Chris... Try again later?";
-			});
-			
-			req.open("post", form.action);
-			req.send(new FormData(form));
-		}
-	</script>
+      req.addEventListener("error", function(){
+        fb.innerHTML = "Sorry, I couldn't send your email to Chris... Try again later?";
+      });
+      
+      req.open("post", form.action);
+      req.send(new FormData(form));
+    }
+  </script>
 </body>
 </html>

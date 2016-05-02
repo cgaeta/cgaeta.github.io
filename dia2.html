@@ -1,120 +1,126 @@
 <!doctype html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="initial-scale=1.0">
-	<title>Chris Gaeta - DIA2</title>
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/standardize.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/project.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Chris Gaeta - DIA2</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/project.css">
 </head>
 <body>
-	<div id="wrapper">
-		<div id="content">
-			<div class="body">
-				<nav id="navigation">
-					<a href="./"><h1 class="name">Chris Gaeta</h1></a>
-					<a href="./portfolio.html" class="navlink current">Portfolio</a>
-					<a href="./resume.html" class="navlink">Resume</a>
-				</nav>
-				<div class="section">
-					<!--
-					<img src="img/dia2_open.png" class="projectImg" alt="Deep Insights Anytime, Anywhere" title="Deep Insights Anytime, Anywhere" />
-					-->
-					<div class="projectdesc">
-						<h2 class="projectName">DIA2</h2>
-						<p class="projectText">I worked on DIA2 as the front-end developer and collaborated with the UX team to build on and improve the website.</p>
-					</div>
-				</div>
-				<div class="section">
-					<ul id="design_stories">
-						<li>
-							<h3 class="story_title">Collaborative Revision</h3>
-						</li>
-					</ul>
-				</div>
-				<div id="dia2_details" class="section">
-					<!--
-					<div class="detailImages">
-						<img src="img/dia2_designProcess.jpg" class="dia2_img2" alt="DIA2's design process page" title="DIA2's design process page" />
-						<img src="img/dia2_egonetwork.png" class="dia2_img3" alt="DIA2's egonetwork" title="DIA2's egonetwork" />
-						<img src="img/dia2_wireframe.PNG" class="dia2_img1" alt="DIA2 in use" title="DIA2 in use" />
-					</div>
-					-->
-					<div class="detailDesc">
-						<h2 class="detailName">Deep Insights Anytime, Anywhere</h2>
-						<p class="detailText">DIA2 - Deep Insights Anytime, Anywhere - is a data visualization tool for researchers, students and NSF program officers. The DIA2 team has put the users at the center of our design process to make NSF's records as accessible as possible.</p>
-						<p class="detailText">By the time I joined DIA2's technical team as a front-end developer, the design team had already developed three personas. These personas had emerged from affinity diagrams and are based on a collection of focus groups.</p>
-						<p class="detailText">Based on these personas, I worked with the design team to create a new homepage for DIA2. We updated the homepage to advertise DIA2's functionality and the problems it will solve for our users.</p>
-						<p class="detailText">After implementing our first design for the homepage, I worked with the design team to design to map out a task flow for users and design our login and registration forms for DIA2 users.</p>
-						<p class="detailText">Learn more about DIA2 and the team at our homepage below, or check out DIA2.</p>
-						<ul class="detailLinks">
-							<li><a href="http://dia2.org" target="_blank">DIA2 Homepage</a></li>
-							<li><a href="http://ci4ene04.ecn.purdue.edu/DIA2/pages/" target="_blank">DIA2 Alpha</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="footer">
-				<form id="contact" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
-					<input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
-					<label class="namelabel" for="guestname">Name</label>
-					<input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
-					<label class="emaillabel" for="guestemail">Email</label>
-					<textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
-					<label class="messagelabel" for="guestmessage">Message</label>
-					<label class="feedback"></label>
-					<input type="submit" class="submit" value="Send" />
-				</form>
-				<p id="copyright">&copy; 2016 by Chris Gaeta</p>
-			</div>
+  <div id="wrapper">
+    <div id="content">
+      <div class="body">
+        <nav id="navigation">
+          <a href="./"><h1 class="name">Chris Gaeta</h1></a>
+          <a href="./portfolio.html" class="navlink current">Portfolio</a>
+          <a href="./resume.html" class="navlink">Resume</a>
+        </nav>
+        <div class="section">
+          <!--
+          <img src="img/dia2_open.png" class="projectImg" alt="Deep Insights Anytime, Anywhere" title="Deep Insights Anytime, Anywhere" />
+          -->
+          <div class="projectdesc">
+            <h2 class="projectName">DIA2</h2>
+            <p class="projectText">I worked on DIA2 as the front-end developer and collaborated with the UX team to build on and improve the website.</p>
+          </div>
+        </div>
+        <div class="section">
+          <ul id="design_stories">
+            <li class="story">
+              <h3 class="story_title">Collaborative Revision</h3>
+              <div class="problem">
+                <p>When I started implementing the UX team's revision of DIA2, I found that the designer's comp had a higher resolution than the web's default. The dimensions for the layout were just a little off.</p>
+              </div><!--
+              --><div class="solution">
+                <p>I contacted the team's visual designer and asker her to help me adjust the layout for the contents. Together we adjusted the new layout without compromising the design.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div id="dia2_details" class="section">
+          <!--
+          <div class="detailImages">
+            <img src="img/dia2_designProcess.jpg" class="dia2_img2" alt="DIA2's design process page" title="DIA2's design process page" />
+            <img src="img/dia2_egonetwork.png" class="dia2_img3" alt="DIA2's egonetwork" title="DIA2's egonetwork" />
+            <img src="img/dia2_wireframe.PNG" class="dia2_img1" alt="DIA2 in use" title="DIA2 in use" />
+          </div>
+          -->
+          <div class="detailDesc">
+            <h2 class="detailName">Deep Insights Anytime, Anywhere</h2>
+            <p class="detailText">DIA2 - Deep Insights Anytime, Anywhere - is a data visualization tool for researchers, students and NSF program officers. The DIA2 team has put the users at the center of our design process to make NSF's records as accessible as possible.</p>
+            <p class="detailText">By the time I joined DIA2's technical team as a front-end developer, the design team had already developed three personas. These personas had emerged from affinity diagrams and are based on a collection of focus groups.</p>
+            <p class="detailText">Based on these personas, I worked with the design team to create a new homepage for DIA2. We updated the homepage to advertise DIA2's functionality and the problems it will solve for our users.</p>
+            <p class="detailText">After implementing our first design for the homepage, I worked with the design team to design to map out a task flow for users and design our login and registration forms for DIA2 users.</p>
+            <p class="detailText">Learn more about DIA2 and the team at our homepage below, or check out DIA2.</p>
+            <ul class="detailLinks">
+              <li><a href="http://dia2.org" target="_blank">DIA2 Homepage</a></li>
+              <li><a href="http://ci4ene04.ecn.purdue.edu/DIA2/pages/" target="_blank">DIA2 Alpha</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <form id="contact" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
+          <input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
+          <label class="namelabel" for="guestname">Name</label>
+          <input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
+          <label class="emaillabel" for="guestemail">Email</label>
+          <textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
+          <label class="messagelabel" for="guestmessage">Message</label>
+          <label class="feedback"></label>
+          <input type="submit" class="submit" value="Send" />
+        </form>
+        <p id="copyright">&copy; 2016 by Chris Gaeta</p>
+      </div>
     </div>
   </div>
-	<script>
-		// this is a change for git
-		// select inputs and textarea and add
-			// eventlisteners to them for onchange
-		var inputs = document.querySelectorAll("input, textarea");
-		for(var i = 0; i < inputs.length; i++){
-			if(inputs[i].className !== "submit")
-				inputs[i].addEventListener("input", function(){
-					if(this.value === "")
-						this.classList.remove("filled");
-					else
-						this.classList.add("filled");
-				});
-		}
-		
-		// setup eventlisteners for AJAX request and send email
-		function AJAXReq(form){
-			if(!form) return;
+  <script>
+    // this is a change for git
+    // select inputs and textarea and add
+      // eventlisteners to them for onchange
+    var inputs = document.querySelectorAll("input, textarea");
+    for(var i = 0; i < inputs.length; i++){
+      if(inputs[i].className !== "submit")
+        inputs[i].addEventListener("input", function(){
+          if(this.value === "")
+            this.classList.remove("filled");
+          else
+            this.classList.add("filled");
+        });
+    }
+    
+    // setup eventlisteners for AJAX request and send email
+    function AJAXReq(form){
+      if(!form) return;
 
-			// not supporting old IE versions
-			var req = new XMLHttpRequest();
+      // not supporting old IE versions
+      var req = new XMLHttpRequest();
 
-			var fb = document.querySelector(".feedback");
-			req.addEventListener("progress", function(){
-				fb.innerHTML= "Wait for it...";
-			fb.classList.add("show");
-			});
+      var fb = document.querySelector(".feedback");
+      req.addEventListener("progress", function(){
+        fb.innerHTML= "Wait for it...";
+      fb.classList.add("show");
+      });
 
-			req.addEventListener("load", function(d){
-				fb.innerHTML = d.responseText;
+      req.addEventListener("load", function(d){
+        fb.innerHTML = d.responseText;
 
-				window.setTimeout(function(){
-					fb.classList.remove("show");
-				}, 2000);
+        window.setTimeout(function(){
+          fb.classList.remove("show");
+        }, 2000);
 
-			});
+      });
 
-			req.addEventListener("error", function(){
-				fb.innerHTML = "Sorry, I couldn't send your email to Chris... Try again later?";
-			});
-			
-			req.open("post", form.action);
-			req.send(new FormData(form));
-		}
-	</script>
+      req.addEventListener("error", function(){
+        fb.innerHTML = "Sorry, I couldn't send your email to Chris... Try again later?";
+      });
+      
+      req.open("post", form.action);
+      req.send(new FormData(form));
+    }
+  </script>
 </body>
 </html>
