@@ -1,9 +1,7 @@
 .projectImg {
   width: 240px;
-  /* height: 150px; */
   position: absolute;
   display: inline-block;
-  margin-top: 43px;
   margin-left: 0;
   background-color: rgb(222, 222, 222);
   vertical-align: top;
@@ -30,14 +28,13 @@
   width: calc(100% - 300px);
   /* height: 150px; */
   display: inline-block;
-  margin-top: 43px;
   margin-left: 20px;
   vertical-align: top;
 }
 
 .projects {
   width: 100%;
-  margin: 40px auto;
+  margin: 160px auto;
 }
 
 .seeMore {
@@ -142,4 +139,28 @@
   width: 275px;
   height: 200px;
   display: inline-block;
+}
+
+.construction {
+  opacity: .5;
+  position: relative;
+}
+
+.construction:after {
+  content: 'Coming soon';
+  display: block;
+  line-height: 1.5;
+  text-align: center;
+  width: 120%;
+  position: absolute;
+  bottom: 0px;
+  left: -20px;
+  color: #FFFFFF;
+  background-color: #DDDDDD;
+  padding: 10px;
+  box-sizing: border-box;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+  -webkit-transform: rotate(330deg);
+  transform: rotate(330deg);
 }
