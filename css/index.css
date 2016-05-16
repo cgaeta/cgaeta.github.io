@@ -1,74 +1,70 @@
 .skill {
-	/* width: 38.5678391959%; */
-	display: inline-block;
-	width: 50%;
-  height: 220px;
-	padding: 50px 0 0;
+  display: inline-block;
+  /* height: 220px; */
+  padding: 50px 0 0;
 }
 #intro {
-	/*
-	background-image:url(./img/index_hero.jpg);
-	background-size: cover;
-	*/
-	position: relative;
-	overflow: hidden;
-	height: 280px;
+  position: relative;
+  overflow: hidden;
+  max-height: 280px;
 }
 
 .gradient {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
-	background: -webkit-linear-gradient(350deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
-	background: linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#00000000',GradientType=0 );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(350deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#00000000',GradientType=0 );
 }
 
 #heroImg {
-	/*
-	width: 100%;
-	height: 280px;
-	*/
-	object-fit: cover;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+  min-width: 420px;
 }
 
 .introaside {
-	font-size: .75em;
-	font-weight: 400;
-	color: rgb(255, 255, 255);
-	margin: 0 0 20px;
-	padding: 0 0 0 40px;
+  font-size: .75em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin: 0 0 20px;
+  padding: 0 0 0 40px;
 }
 
 .about_aside {
-	display: block;
-	font-size: .75em;
+  display: block;
+  font-size: .75em;
 }
 
 .about_text {
-	display: inline-block;
-	box-sizing: border-box;
-	width: 70%;
-	padding: 0 7.5% 0 0;
-	vertical-align: middle;
-	line-height: 2;
-	font-size: 1.25em;
-	color: #888888;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 70%;
+  padding: 0 7.5% 0 0;
+  vertical-align: middle;
+  line-height: 2;
+  font-size: 1.25em;
+  color: #888888;
 }
 
+@media (max-width: 800px) { .about_text { font-size: 1em; } }
+
+@media (max-width: 640px) { .about_text { font-size: .8em; } }
+
 #profile_photo {
-	width: 30%;
-	border-radius: 20px;
-	display: inline-block;
-	vertical-align: middle;
+  width: 30%;
+  /* border-radius: 20px; */
+  border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 #about_me {
-	border: 4px dashed #999999;
-	padding: 20px;
+  border: 4px dashed #999999;
+  padding: 20px;
 }
