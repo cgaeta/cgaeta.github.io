@@ -1,0 +1,32 @@
+.design_img {
+  display: block;
+  /* width: 240px; */
+  width: auto;
+  height: 120px;
+  margin: 40px auto;
+}
+
+.design_text {
+  display: block;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.design_story {
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+#design_process {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.story_title {
+  text-align: center;
+}
+
+.vstar_links {
+  margin-top: 20px;
+}

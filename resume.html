@@ -3,137 +3,134 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
-  <title>resume</title>
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
+  <title>Chris Gaeta's Resume</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">
-  <link rel="stylesheet" href="css/resume-grid.css">
   <link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/resume.css">
+  <script type="text/javascript" src="js/scripts.js" ></script>
 </head>
 <body>
-  <div id="wrapper">
-    <div id="content">
-      <div class="body">
-        <nav id="navigation">
-					<a href="/"><h1 class="name">Chris Gaeta</h1></a>
-          <a href="work.html" class="navlink">Work</a>
-          <a href="#" class="navlink current">Resume</a>
+  <div id="wrapper" class="fs-12">
+    <div class="body">
+      <div id="navCont">
+        <nav id="navigation" class="fs-12">
+          <a href="./" class="navlink fs-4 fs-3-1280 fs-4-640 fs-5-480 fo-1"><h1 class="name">Chris Gaeta</h1></a><!--
+          --><a href="portfolio.html" class="navlink fs-2 fo-2 fo-3-1280 fo-2-640 fo-1-480">Portfolio</a><!--
+          --><a href="#" class="navlink fs-2 fo current">Resume</a>
         </nav>
-				<div class="resume">
-					<div class="personal">
-						<p>Christopher M Gaeta<span class="right">cgaeta@purdue.edu</span></p>
-						<p>272 Littleton St<span class="right">(765) 532-6599</span><br>West Lafayette, IN 47906</p>
-					</div>
-					<ul class="education resumeSection">
-						<li><h2>Education</h2></li>
-						<li class="degree">
-							<p class="offset1"><span class="bold">Purdue University, School of Technology</span><span class="right">West Lafayette, Indiana</span></p>
-							<p class="offset2">Bachelor of Science in Computer Graphics Technology<span class="right">May, 2014</span></p>
-							<p class="offset2">Web Development</p>
-						</li>
-						<li class="degree">
-							<p class="offset1"><span class="bold">Purdue University, Polytechnic Institute</span><span class="right">West Lafayette, Indiana</span></p>
-							<p class="offset2">Master of Science in Computer Graphics Technology<span class="right">Expected May, 2016</span></p>
-							<p class="offset2">Human Centered Design &amp; Development</p>
-						</li>
-					</ul>
-					<ul class="work resumeSection">
-						<li><h2>Work Experience</h2></li>
-						<li class="job">
-							<p class="offset1"><span class="bold">Purdue University</span>, West Lafayette, IN<span class="right">January 2015 - Present</span></p>
-							<p class="offset2">DIA2 Front End Developer</p>
-						</li>
-					</ul>
-					<ul class="educationWork resumeSection">
-						<li><h2>Education Experience</h2></li>
-						<li class="project">
-							<p class="offset1"><span class="bold">Purdue University</span>, West Lafayette, IN<span class="right">August 2014 - December 2014</span></p>
-							<p class="offset2">Virtual Student Transition, Advising and Registration</p>
-						</li>
-					</ul>
-					<ul class="skillsets resumeSection">
-						<li class="skillset">
-							<h2>User Research  &amp; Design Skills</h2>
-							<ul>
-								<li class="skill">
-									<h2 class="offset1">Qualitative Research</h2>
-									<p class="offset2">Interviewing: Usability testing; Affinity diagramming and thematic analysis</p>
-								</li>
-								<li class="skill">
-									<h3 class="offset1">Prototyping and Wireframing</h3>
-								</li>
-							</ul>
-						</li>
-						<li class="skillset">
-							<h2>Web Programming Skills</h2>
-							<ul>
-								<li class="skill">
-									<p class="offset1">HTML; CSS &amp; SASS; Javascript &amp; jQuery; PHP; SQL</p>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
       </div>
-      <div class="footer">
-        <form id="contact" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
-          <input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
-					<label class="namelabel" for="guestname">Name</label>
-          <input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
-					<label class="emaillabel" for="guestemail">Email</label>
-          <textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
-					<label class="messagelabel" for="guestmessage">Message</label>
-          <label class="feedback"></label>
-					<input type="submit" class="submit" value="Send" />
-        </form>
-        <p id="copyright">&copy; 2016 by Chris Gaeta</p>
+      <div class="resume">
+        <div class="personal">
+          <p><span class="resume_name">Christopher M Gaeta</span><span class="right resume_title">UX Designer / Developer</span>
+          <br/>Contact me with form below</p>
+          <h2 class="profile">My Profile:</h2>
+          <p class="profile_text">I am a <span class="black">UX designer</span> and <span class="black">developer</span> with experience in <span class="black">big data analytics</span>, knowledge of <span class="black">social psychology</span>, and a passion for crafting quality user experiences.</p>
+        </div>
+        <div class="work">
+          <ul class="jobs resumeSection">
+            <li><h2 class="section_header">Work Experience</h2></li>
+            <li class="job">
+              <p class="loc_date"><span class="bold">Purdue University</span> / Jan 2015 - May 2016
+                <br/>West Lafayette, IN</p>
+              <p class="job_title">DIA2: Front-End Web Developer</p>
+              <ul class="accomplishments">
+                <li><span class="bold">Collaborate</span> with other student assistants to design a web-based, interactive platform for <span class="bold">knowledge mining and visualization</span></li>
+                <li><span class="bold">Liaison</span> between technical and user experience teams</li>
+                <li><span class="bold">Advocate</span> for simpler user interactions</li>
+                <li><span class="bold">Develop</span> production-quality features for <span class="bold">usability testing</span></li>
+                <li>Identify and <span class="bold">fix usability issues</span></li>
+              </ul>
+            </li>
+            <li class="job">
+              <p class="loc_date"><span class="bold">Purdue University</span> / Aug 2014 - Dec 2014
+                <br/>West Lafayette, IN</p>
+              <p class="job_title">Teaching Assistant</p>
+              <ul class="accomplishments">
+                <li>Guide and assist students in a back-end PHP and MySQL class</li>
+                <li>Grade students' work</li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="educationWork resumeSection">
+            <li><h2 class="section_header">Education Experience</h2></li>
+            <li class="project">
+              <p class="loc_date"><span class="bold">Purdue University</span> / Aug 2014 - Dec 2014
+                <br/>West Lafayette, IN</p>
+              <p class="job_title">VSTAR</p>
+              <ul class="accomplishments">
+                <li><span class="bold">Collaborate</span> with other students to redesign an online orientation tool for foreign students</li>
+                <li>Develop a <span class="bold">persona</span> and <span class="bold">identify design requirements</span></li>
+                <li><span class="bold">Sketch</span> and create <span class="bold">wireframes</span></li>
+                <li>Conduct <span class="bold">usability tests</span> with paper prototypes</li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--
+        --><div class="education">
+          <ul class="degrees">
+            <li><h2 class="section_header">Education</h2></li>
+            <li class="degree">
+              <p class="loc"><span class="bold">Purdue University</span> <span class="date">/ May 2016</span></p>
+              <div class="details">
+                <p class="department">Polytechnic Institute</p>
+                <p>West Lafayette, Indiana</p>
+                <p>M.S. in Computer Graphics Technology</p>
+                <p>Concentration in Human Centered Design &amp; Development</p>
+              </div>
+            </li>
+            <li class="degree">
+              <p class="loc"><span class="bold">Purdue University</span> <span class="date">/ May 2014</span></p>
+              <div class="details">
+                <p class="department">Polytechnic Institute</p>
+                <p>West Lafayette, Indiana</p>
+                <p>B.S. in Computer Graphics Technology</p>
+                <p>Concentration in Web Development</p>
+              </div>
+            </li>
+          </ul>
+          <div class="skillsets">
+            <h2 class="section_header">Skills</h2>
+            <ul class="details">
+              <li>User interviews</li>
+              <li>Observation</li>
+              <li>Usability testing</li>
+              <li>Affinity diagramming</li>
+              <li>Qualitative data analysis</li>
+              <li>Persona creation</li>
+              <li>Sketching and wireframing</li>
+              <li>Information architecture</li>
+              <li>Interaction design</li>
+              <li>HTML, CSS, Javascript</li>
+              <li>PHP and MySQL</li>
+              <li>Prototyping</li>
+            </ul>
+          </div>
+        </div>
+        <div class="leadership">
+          <h2 class="section_header">Leadership Experience</h2>
+          <p class="experience loc_date">Salsa Club / Fall, 2011 - Spring, 2016</p>
+          <ul class="details accomplishments">
+            <li>Instruct various dance classes</li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div class="footer">
+      <form id="contact" class="fs-4 fs-6-800 fo-1" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
+        <input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
+        <label class="namelabel" for="guestname">Name</label>
+        <input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
+        <label class="emaillabel" for="guestemail">Email</label>
+        <textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
+        <label class="messagelabel" for="guestmessage">Message</label>
+        <label class="feedback"></label>
+        <input type="submit" class="submit" value="Send" />
+      </form>
+      <p id="copyright">&copy; 2016 by Chris Gaeta</p>
+    </div>
   </div>
-	<script>
-		// this is a change for git
-		// select inputs and textarea and add
-			// eventlisteners to them for onchange
-		var inputs = document.querySelectorAll("input, textarea");
-		for(var i = 0; i < inputs.length; i++){
-			if(inputs[i].className !== "submit")
-				inputs[i].addEventListener("input", function(){
-					if(this.value === "")
-						this.classList.remove("filled");
-					else
-						this.classList.add("filled");
-				});
-		}
-		
-		// setup eventlisteners for AJAX request and send email
-		function AJAXReq(form){
-			if(!form) return;
-
-			// not supporting old IE versions
-			var req = new XMLHttpRequest();
-
-			var fb = document.querySelector(".feedback");
-			req.addEventListener("progress", function(){
-				fb.innerHTML= "Wait for it...";
-			fb.classList.add("show");
-			});
-
-			req.addEventListener("load", function(d){
-				fb.innerHTML = d.responseText;
-
-				window.setTimeout(function(){
-					fb.classList.remove("show");
-				}, 2000);
-
-			});
-
-			req.addEventListener("error", function(){
-				fb.innerHTML = "Sorry, I couldn't send your email to Chris... Try again later?";
-			});
-			
-			req.open("post", form.action);
-			req.send(new FormData(form));
-		}
-	</script>
+  
 </body>
 </html>
