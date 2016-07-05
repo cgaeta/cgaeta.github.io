@@ -5,7 +5,7 @@
 	<meta name="viewport" content="initial-scale=1.0">
 	<title>Chris Gaeta</title>
 	<link rel="icon" type="image/png" href="favicon.png" />
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/standardize.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/grid.css">
@@ -18,8 +18,8 @@
 			<div id="navCont">
 				<nav id="navigation" class="fs-12">
 					<a href="./" class="navlink fs-4 fs-3-1280 fs-4-640 fs-5-480 fo-1"><h1 class="name">Chris Gaeta</h1></a><!--
-					--><a href="./portfolio.html" class="current navlink fs-2 fo-2 fo-3-1280 fo-2-640 fo-1-480">Portfolio</a><!--
-					--><a href="./resume.html" class="navlink fs-2 fo">Resume</a>
+					--><a href="./portfolio" class="current navlink fs-2 fo-2 fo-3-1280 fo-2-640 fo-1-480">Portfolio</a><!--
+					--><a href="./resume" class="navlink fs-2 fo">Resume</a>
 				</nav>
 			</div>
 			<div class="section fs-10">
