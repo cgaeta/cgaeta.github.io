@@ -141,30 +141,6 @@
   display: inline-block;
 }
 
-.construction {
-  opacity: .5;
-  position: relative;
-}
-
-.construction:after {
-  content: 'Coming soon';
-  display: block;
-  line-height: 1.5;
-  text-align: center;
-  width: 120%;
-  position: absolute;
-  bottom: 0px;
-  left: -20px;
-  color: #FFFFFF;
-  background-color: #DDDDDD;
-  padding: 10px;
-  box-sizing: border-box;
-  -webkit-transform-origin: center left;
-  transform-origin: center left;
-  -webkit-transform: rotate(330deg);
-  transform: rotate(330deg);
-}
-
 .abstract {
   font-style: italic;
 }

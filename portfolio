@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1.0">
+	<title>Chris Gaeta's UX Portfolio</title>
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300|Oswald:400,400|Nobile:300" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/standardize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/portfolio.css">
+	<script type="text/javascript" src="js/scripts.js" ></script>
+</head>
+<body>
+	<div id="wrapper" class="fs-12">
+		<div class="body">
+			<div id="navCont">
+				<nav id="navigation" class="fs-12">
+					<a href="./" class="navlink fs-4 fs-3-1280 fs-4-640 fs-5-480 fo-1"><h1 class="name">Chris Gaeta</h1></a><!--
+					--><a href="#" class="current navlink fs-2 fo-2 fo-3-1280 fo-2-640 fo-1-480">Portfolio</a><!--
+					--><a href="./resume" class="navlink fs-2 fo">Resume</a>
+				</nav>
+			</div>
+			<div class="section fs-10">
+				<div class="projects">
+					<div class="projectImages">
+						<img src="img/dia2_egonetwork_240.png" class="projectImg" />
+						<img src="img/dia2_open_240.png" class="projectImg" />
+						<img src="img/dia2_homepage_240.png" class="projectImg" alt="Deep Insights Anytime, Anywhere" title="Deep Insights Anytime, Anywhere" />
+					</div>
+					<div class="projectdesc">
+						<h2 class="projectName">DIA2</h2>
+						<p class="projectText">DIA2 is a data-mining tool for academics created to explore National Science Foundation grants.</p>
+						<p class="projectText">I collaborated with the UX team in designing interactions, developing interactive prototypes, and implementing changes to the data visualization tool.</p>
+						<a class="seeMore" href="./dia2">See more</a>
+					</div>
+				</div>
+				<div class="projects">
+					<div class="projectImages">
+						<img src="img/vstar_persona_240.png" class="projectImg" />
+						<img src="img/vstar_invision_240.png" class="projectImg" alt="Virtual Student Transition, Advising and Registration" title="Virtual Student Transition, Advising and Registration" />
+						<img src="img/vstar_heuristics_240.png" class="projectImg" />
+					</div>
+					<div class="projectdesc">
+						<h2 class="projectName">VSTAR</h2>
+						<p class="projectText">VSTAR is an online student transition program for incoming Purdue students. The program's primary target demographics was international students, especially Chinese students.</p>
+						<p class="projectText">I collaborated with a  team of UX design and Civil Engineering students to conduct user research, usability studies, and redesigning the orientation tools and process.</p>
+						<a class="seeMore" href="./vstar">See more</a>
+					</div>
+				</div>
+				<div class="projects">
+					<div class="projectImages">
+						<img src="img/tatree_240.png" class="projectImg" />
+						<img src="img/tatree_network_240.png" class="projectImg" />
+					</div>
+					<div class="projectdesc">
+						<h2 class="projectName">TATree</h2>
+						<p class="projectText">TATree is a data visualization tool I created for myself to conduct thematic analysis. TATree runs in browser and is powered by the D3 Javascript library.</p>
+						<a class="seeMore" href="./tatree/" target="_blank">Try it</a>
+					</div>
+				</div>
+				<div class="projects">
+					<div class="projectImages">
+						<img src="img/thesis_240.png" class="projectImg" />
+					</div>
+					<div class="projectdesc">
+						<h2 class="projectName">Master's Thesis: Quit Playing With Your Watch</h2>
+						<p class="abstract">This study identified perceptions and social norms that may affect smartwatch adoption. Interviews were conducted to identify perceptions of smartwatch use and norms that might affect those perceptions.</p>
+						<p class="abstract">Smartwatch use was found to activate norms associated with wristwatch use – specifically, smartwatch users’ peers took offense to the users looking at their wristwatches. This study also found that norms prevent the use of smartwatches’ voice controls in public and various perceptions of smartwatch use and ownership.</p>
+						<a class="seeMore" href="https://www.scribd.com/doc/312780812/Quit-Playing-With-Your-Watch-Perceptions-of-Smartwatch-Use" target="_blank">Read it</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<h2 id="contact_me">Contact Me</h2>
+			<form id="contact" class="fs-4 fs-6-800 fo-1" method="post" action="email.php" onsubmit="AJAXReq(this); return false;">
+				<input id="guestname" name="guestname" placeholder="What's your name?" required="required" type="text">
+				<label class="namelabel" for="guestname">Name</label>
+				<input id="guestemail" name="guestemail" placeholder="And your email?" required="required" type="email">
+				<label class="emaillabel" for="guestemail">Email</label>
+				<textarea id="guestmessage" name="guestmessage" required="required" placeholder="What can I help you with?"></textarea>
+				<label class="messagelabel" for="guestmessage">Message</label>
+				<label class="feedback"></label>
+				<input type="submit" class="submit" value="Send" />
+			</form>
+			<p id="copyright">&copy; 2016 by Chris Gaeta</p>
+		</div>
+	</div>
+	
+</body>
+</html>
