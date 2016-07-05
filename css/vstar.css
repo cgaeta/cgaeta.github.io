@@ -6,6 +6,10 @@
   margin: 40px auto;
 }
 
+.design_img[data] {
+  cursor: pointer;
+}
+
 .design_text {
   display: block;
   max-width: 30em;
@@ -18,8 +22,16 @@
 }
 
 #design_process {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
