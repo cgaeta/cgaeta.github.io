@@ -1,55 +1,55 @@
 .skill {
-  display: inline-block;
-  /* height: 220px; */
-  padding: 50px 0 0;
+	display: inline-block;
+	/* height: 220px; */
+	padding: 50px 0 0;
 }
 #intro {
-  position: relative;
-  overflow: hidden;
-  max-height: 280px;
+	position: relative;
+	overflow: hidden;
+	max-height: 280px;
 }
 
 .gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: -webkit-linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
-  background: -webkit-linear-gradient(350deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
-  background: linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#00000000',GradientType=0 );
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
+	background: -webkit-linear-gradient(350deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(100deg, rgba(0,0,0,0.62) 0%,rgba(0,0,0,0.17) 65%,rgba(0,0,0,0) 79%,rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e000000', endColorstr='#00000000',GradientType=0 );
 }
 
 #heroImg {
-  -o-object-fit: cover;
-  object-fit: cover;
-  overflow: hidden;
-  min-width: 420px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	overflow: hidden;
+	min-width: 420px;
 }
 
 .introaside {
-  font-size: .75em;
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-  margin: 0 0 20px;
-  padding: 0 0 0 40px;
+	font-size: .75em;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	margin: 0 0 20px;
+	padding: 0 0 0 40px;
 }
 
 .about_aside {
-  display: block;
-  font-size: .75em;
+	display: block;
+	font-size: .75em;
 }
 
 .about_text {
-  display: inline-block;
-  box-sizing: border-box;
-  width: 70%;
-  padding: 0 7.5% 0 0;
-  vertical-align: middle;
-  line-height: 2;
-  font-size: 1.25em;
-  color: #888888;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 70%;
+	padding: 0 7.5% 0 0;
+	vertical-align: middle;
+	line-height: 2;
+	font-size: 1.25em;
+	color: #888888;
 }
 
 @media (max-width: 800px) { .about_text { font-size: 1em; } }
@@ -57,14 +57,85 @@
 @media (max-width: 640px) { .about_text { font-size: .8em; } }
 
 #profile_photo {
-  width: 30%;
-  /* border-radius: 20px; */
-  border-radius: 100%;
-  display: inline-block;
-  vertical-align: middle;
+	width: 30%;
+	/* border-radius: 20px; */
+	border-radius: 100%;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 #about_me {
-  border: 4px dashed #999999;
-  padding: 20px;
+	border: 4px dashed #999999;
+	padding: 20px;
+}
+
+.tweetCont {
+	width: 480px;
+	position: absolute;
+	top: 20px;
+	right: 5px;
+	height: 340px;
+	background-color: rgb(192, 192, 192);
+	margin: 0;
+	/* overflow-y: scroll; */
+}
+
+.tweetList {
+	height: 290px;
+	padding: 0;
+	background-color: rgba(192, 192, 192, 1);
+	overflow-y: scroll;
+}
+
+/* .tweetList::before { */
+.tweetCont::before {
+	content: url(../img/Twitter_Icon_Grey.png);
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto 5px;
+}
+
+.tweetItem {
+	list-style: none;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 20px;
+	border-radius: 3px;
+	margin: 0 10px 10px;
+}
+
+.tweetUserLink {
+	display: block;
+	line-height: 48px;
+	margin: 0 0 10px;
+}
+
+.tweetUserImg {
+	display: inline-block;
+	width: 48px;
+	line-height: 48px;
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+}
+
+.tweetUsername {
+	font-size: 1.5em;
+	line-height: 48px;
+	margin: 0;
+	color: #000000;
+}
+
+.tweetBody {
+	white-space: pre-wrap;
+	font-size: .9em;
+}
+
+@media (max-width: 800px) {
+	.tweetCont {
+		position: static;
+		width: 90%;
+		height: auto;
+		margin: 25px auto;
+		overflow-y: auto;
+	}
 }

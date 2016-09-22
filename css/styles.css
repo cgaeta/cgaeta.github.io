@@ -194,6 +194,7 @@ transition: .5s transform ease-in;
 	min-width:240px;
 	max-width: 360px;
 	vertical-align: bottom;
+	margin-bottom: 25px;
 }
 
 #guestname,
