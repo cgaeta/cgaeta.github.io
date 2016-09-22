@@ -46,6 +46,14 @@
 	margin: 160px auto;
 }
 
+@media (max-width: 800px) {
+	
+	.projects {
+		margin-top: 40px;
+	}
+	
+}
+
 .seeMore {
 	display: block;
 	width: 30.5699309978%;
@@ -60,6 +68,16 @@
 }
 
 .seeMore:hover { background-color: rgb(64, 64, 64); }
+
+@media (max-width: 640px) {
+	
+	.seeMore {
+		height: 3em;
+		line-height: 3em;
+		font-size: 16pt;
+	}
+	
+}
 
 .projectName {
 	min-height: 35px;
