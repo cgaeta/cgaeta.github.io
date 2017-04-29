@@ -1,0 +1,4 @@
+<div>
+	<input type="number" min="1" max="9" ng-model="val">
+	<sudoku-possibility ng-repeat="possible in $ctlr.possible" value="$index" possible="possible"></sudoku-possibility>
+</div>

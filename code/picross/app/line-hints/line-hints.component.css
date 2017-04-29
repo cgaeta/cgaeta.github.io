@@ -1,0 +1,27 @@
+:root {
+  display: inline-block;
+  height: 30px;
+  width: 200px;
+  vertical-align: middle;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.hints {
+  width: 150px;
+  text-align: right;
+}
+
+.hint {
+  display: inline-block;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+div {
+  display: inline-block;
+}
+
+input {
+  width: 30px;
+}
