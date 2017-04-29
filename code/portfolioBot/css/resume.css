@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+.offset1 {
+  margin-left: 1em;
+}
+
+.personal {
+  width: 100%;
+  /* height: 70px; */
+}
+
+.resume {
+  width: 8.5in;
+  height: 11in;
+  padding: .75in;
+  margin: 30px auto;
+  box-shadow: 0 0 3px 5px rgba(0, 0, 0, .25);
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.offset2 {
+  margin-left: 2em;
+}
+
+.resumeSection {
+  /* margin: 20px auto; */
+}
+
+.degree,
+.job,
+.project,
+.skillset {
+  margin-bottom: 1em;;
+}
+
+
+
+.offset3 {
+  margin-left: 3em
+}
+
+.skill {
+  margin: 10px 0 0;
+}
+
+.resume_name {
+  font-size: 1.5em;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+.resume_title {
+  font-size: 1em;
+  font-weight: 600;
+  vertical-align: bottom;
+  padding-top: .5em;
+}
+
+.profile {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.profile_text {
+  font-size: .917;
+  font-size: calc(11em/12);
+  text-indent: 3.2em;
+  margin: 1em 0;
+}
+
+.education {
+  display: inline-block;
+  width: 2.5in;
+  padding: .1in;
+  vertical-align: top;
+  background-color: #F0F0F0;
+}
+
+.work {
+  display: inline-block;
+  width: 4.5in;
+  vertical-align: top;
+  padding: .1in .1in 0 0;
+  
+}
+
+.loc_date, .loc {
+  font-size: .917em;
+  font-size: calc(11em/12);
+}
+
+.job_title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: .833em;
+  font-size: calc(5em/6);
+  margin-bottom: .5em;
+}
+
+.accomplishments {
+  font-size: .833em;
+  font-size: calc(5em/6);
+  padding-left: .25in;
+}
+
+.accomplishments > li {
+  list-style: disc;
+}
+
+.section_header {
+  font-size: 1.167em;
+  font-size: calc(7em/6);
+  font-weight: 600;
+  margin-bottom: .5em;
+}
+
+.date {
+  font-size: .833em;
+  font-size: calc(5em/6);
+}
+
+.details {
+  font-size: .833em;
+  font-size: (5em/6);
+}
+
+.department,
+.experience {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+}
+
+.experience {
+  margin-bottom: .5em;
+}
+
+.degrees {
+  margin-bottom: 1.5em;
+}
+
+.skillsets {
+  margin-bottom: 1.5em;
+}

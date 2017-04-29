@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="view"></div>
+  <div id="zoomCtls">
+    <button id="zoomIn">+</button>
+    <button id="zoomOut">-</button>
+  </div>
+  <div id="script"></div>
+  <div id="network"></div>
+  <div id="controls">
+    <label>JSON file to analyze:</label>
+    <input type="file" id="fileField" />
+    <label>Add transcript</label>
+    <input type="file" id="transcriptField" />
+    <label>Show Transcript</label>
+    <select id="showTranscript"></select>
+    <button id="toggleTranscript">Toggle Transcript</button>
+    <form>
+      <label>Add node</label>
+      <input type="text" id="nodeField" />
+      <input type="submit" value="Insert" id="insertNode" />
+    </form>
+    <button id="encodeSelection">Encode selection</button>
+    <label>Node Context</label>
+    <p id="nodeContext"></p>
+  </div>
+  <div id="copy">
+  	<label>Click below to copy JSON</label>
+  	<p id="json"></p>
+  </div>
+</body>
+</html>

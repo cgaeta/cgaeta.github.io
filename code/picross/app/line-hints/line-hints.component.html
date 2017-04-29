@@ -1,0 +1,7 @@
+<div class="hints">
+  <span *ngFor="let h of hints" [ngClass]="{ 'completed': h.completed, 'hint': true }" (click)="remove(h)">{{h.num}}</span>
+</div>
+<div>
+  <input type="number" [(ngModel)]="newHint" (change)="adjustValue()" min="0" [max]="remaining()" [disabled]="isDisabled()" />
+  <button value="Add" (click)="addHint()">Add</button>
+</div>
