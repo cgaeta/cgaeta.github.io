@@ -1,6 +1,16 @@
+const sendReq = require('./contactForm.js');
+const loadImgs = require('./imageLoader.js');
+//const initStickyNav = require('./stickyNav.js');
+//require('./codeDemo.js');
+const hoverMask = require('./hoverMask.js');
 
 window.onload = function(){
 
+  var form = document.querySelector('#contact')
+  form.addEventListener('submit', function(ev) {
+    ev.preventDefault();
+    sendReq(form);
+  });
   // select inputs and textarea and add
     // eventlisteners to them for onchange
   var inputs = document.querySelectorAll("input, textarea");
@@ -12,17 +22,20 @@ window.onload = function(){
         else
           this.classList.add("filled");
       });
-  }
+  };
 
   // set navigation bar to be "sticky"
-  nav = document.querySelector("#navigation");
+  /*
+  var nav = document.querySelector("#navigation");
+  var stickyNav = initStickyNav(nav);
   navBack = document.querySelector("#navBack");
-  var view = document.querySelector(".parallax") || window;
+  //var view = document.querySelector(".parallax") || window;
+  var view = window;
   var ticking = false;
   var scroll;
 
   if (window.location.pathname.lastIndexOf('/') === window.location.pathname.length - 1) {
-
+  //if (window.location.pathname.lastIndexOf('test/') === window.location.pathname.length - 1) {
     view.addEventListener('scroll', function(e) {
       scroll = view.scrollY || view.scrollTop;
 
@@ -41,21 +54,21 @@ window.onload = function(){
 
   } else {
     nav.className = "fs-12 scrolled";
-  }
+  } */
 
   // check for images that open an album
-  img_albums = document.querySelectorAll("img[data]");
+  /* img_albums = document.querySelectorAll("img[data]");
 
   for(let i = 0; i < img_albums.length; i++)
     //get_album(img_albums[i].getAttribute("data"));
     img_albums[i].addEventListener("click", function(){
       get_album(img_albums[i].getAttribute("data"));
     });
-
+  */
   // try to retrieve Twitter feed
   //reqTwitterFeed();
 
-  getDemoConts();
+  //getDemoConts();
 
   loadImgs();
 

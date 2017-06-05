@@ -25,5 +25,11 @@ function AJAXReq(form){
   });
 
   req.open("post", form.action);
+  req.responseType = "json";
+  req.setRequestHeader('Accept', 'application/json');
   req.send(new FormData(form));
+
+  return false
 }
+
+module.exports = AJAXReq;

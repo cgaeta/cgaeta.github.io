@@ -16,3 +16,5 @@ function hoverMask() {
     }
   });
 }
+
+module.exports = hoverMask;

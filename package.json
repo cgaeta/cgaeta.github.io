@@ -1,0 +1,40 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "webpack --env.DEV",
+    "start": "webpack-dev-server --env.DEV",
+    "test": "webpack --env.PROD --env.LIMIT=3000 -p",
+    "test-start": "webpack-dev-server --compress --env.PROD -p --env.LIMIT=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://chrismgaeta@bitbucket.org/chrismgaeta/my-portfolio.git"
+  },
+  "author": "Chris Gaeta",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/chrismgaeta/my-portfolio#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "compression-webpack-plugin": "^0.4.0",
+    "css-loader": "^0.27.3",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-compat": "^1.0.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.0",
+    "pug": "^2.0.0-beta10",
+    "pug-cli": "^1.0.0-alpha6",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.1",
+    "url-loader": "^0.5.8"
+  },
+  "browserslist": [
+    "last 10 chrome versions"
+  ]
+}

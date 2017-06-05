@@ -1,7 +1,9 @@
 function getSrc(img) {
-  return img.nodeName.toLowerCase() === "img" ?
-    img.src :
-    img.getAttribute("xlink:href");
+  return img.hasAttribute('data-src') ?
+    img.getAttribute('data-src') :
+    img.nodeName.toLowerCase() === "img" ?
+      img.src :
+      img.getAttribute("xlink:href");
 }
 
 function setSrc(img, src) {
@@ -30,10 +32,12 @@ function loadImgs() {
 
   for (var i = 0; i < imgs.length; i++) {
 
-    if (!/_pre\./.test(getSrc(imgs[i]))) {
+    if (!(/_pre\./.test(getSrc(imgs[i])) || imgs[i].hasAttribute('data-src'))) {
       continue;
     }
 
     setImgLoaders(imgs[i]);
   }
 }
+
+module.exports = loadImgs;

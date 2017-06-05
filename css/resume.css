@@ -14,6 +14,10 @@
   margin: 30px auto;
 }
 
+.right {
+  float: right;
+}
+
 #resumeDl {
   padding: 15px;
   border-radius: 10px;
