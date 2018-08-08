@@ -1,0 +1,88 @@
+img {
+  position: absolute;
+  opacity: 0;
+}
+
+#txtHeadline1 {
+  left: 320px;
+  top: 86px;
+  width: 320px;
+  height: 143px;
+}
+
+#txtHeadline2_1 {
+  left: -320px;
+  top: 219px;
+  width: 320px;
+  height: 58.5px;
+}
+
+#txtHeadline2_2 {
+  left: 138px;
+  top: 259px;
+  width: 39.5px;
+  height: 39px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#txtHeadline2_3 {
+  left: 320px;
+  top: 278.5px;
+  width: 320px;
+  height: 58.5px;
+}
+
+#txtHeadline3 {
+  left: 329px;
+  top: 329px;
+  width: 303px;
+  height: 26px;
+}
+
+#btnCTA {
+  left: 95px;
+  top: 362px;
+  width: 138px;
+  height: 46px;
+  }
+
+#logoMM {
+  left: 91px;
+  top: 13px;
+  width: 137px;
+  height: 67px;
+}
+
+#logoHL {
+  left: 132px;
+  top: 414px;
+  width: 55px;
+  height: 38px;
+}
+
+/*background*/
+#clickthrough-button {
+  display:block;
+  background-color:#0b52a0;
+  position:absolute;
+  width: 320px;
+  height: 480px;
+  overflow:hidden;
+  text-decoration: none;
+}
+
+#bg {
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 480px;
+  opacity: 1;
+}
+
+#txtLegal {
+  left: 24px;
+  top: 457px;
+  width: 268px;
+  height: 16px;
+}

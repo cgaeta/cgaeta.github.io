@@ -1,0 +1,94 @@
+img { opacity: 0; }
+
+#txtHeadline1 {
+  position: absolute;
+  left: 232px;
+  top: 90px;
+  width: 263px;
+  height: 90px;
+}
+
+#txtHeadline2_1 {
+  position: absolute;
+  left: 120px;
+  top: -65px;
+  width: 205px;
+  height: 59px;
+}
+
+#txtHeadline2_2 {
+  position: absolute;
+  left: 334px;
+  top: -67px;
+  width: 48px;
+  height: 48px;
+}
+
+#txtHeadline2_3 {
+  position: absolute;
+  left: 389px;
+  top: -87px;
+  width: 264px;
+  height: 73px;
+}
+
+
+#txtHeadline3 {
+  position: absolute;
+  left: 145px;
+  top: -84px;
+  width: 396px;
+  height: 77px;
+}
+
+#btnCTA {
+  position: absolute;
+  left: 593px;
+  top: 5px;
+  width: 135px;
+  height: 45px;
+}
+
+#logoMM {
+  position: absolute;
+  left: 4px;
+  top: 46px;
+  width: 76px;
+  height: 37px;
+}
+
+#logoHL {
+  position: absolute;
+  left: 16px;
+  top: 7px;
+  width: 52px;
+  height: 38px;
+}
+
+/*background*/
+#clickthrough-button {
+  display:block;
+  background-color:#0b52a0;
+  position:absolute;
+  width: 728px;
+  height: 90px;
+  overflow:hidden;
+  text-decoration: none;
+}
+
+#bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 728px;
+  height: 90px;
+  opacity: 1;
+}
+
+#txtLegal {
+  position: absolute;
+  left: 591px;
+  top: 46px;
+  width: 127px;
+  height: 40px;
+}

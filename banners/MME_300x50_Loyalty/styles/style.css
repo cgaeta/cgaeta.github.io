@@ -1,0 +1,65 @@
+
+#txtHeadline1 {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  width: 148px;
+  height: 50px;
+  opacity: 0;
+}
+
+#txtLegal {
+  position: absolute;
+  left: 15px;
+  top: 41px;
+  width: 52px;
+  height: 5px;
+  opacity: 0;
+}
+
+#logoMM {
+  position: absolute;
+  left: 3px;
+  top: 5px;
+  width: 68px;
+  height: 33px;
+  opacity: 0;
+}
+
+#logoHL {
+  position: absolute;
+  left: 244px;
+  top: 2px;
+  width: 42px;
+  height: 32px;
+  opacity: 0;
+}
+
+/*background*/
+#clickthrough-button {
+  display:block;
+  background-color:#0b52a0;
+  position:absolute;
+  width:300px;
+  height:50px;
+  overflow:hidden;
+  text-decoration: none;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 50px;
+  opacity: 1;
+}
+
+#btnCTA {
+  position: absolute;
+  left: 233px;
+  top: 79px;
+  width: 67px;
+  height: 22px;
+  opacity: 0;
+}

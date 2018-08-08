@@ -1,0 +1,64 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-work-js": [
+      "component---src-pages-work-js-925b4dd47b6bb23b986e.js",
+      "component---src-pages-work-js-925b4dd47b6bb23b986e.js.map"
+    ],
+    "path---work": [
+      "path---work-230b7b396cf009f6187c.js",
+      "path---work-230b7b396cf009f6187c.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-e07d6a4d8be7998a0d7c.js",
+      "component---src-pages-index-js-e07d6a4d8be7998a0d7c.js.map"
+    ],
+    "path---": [
+      "path----8dcc52fd0728f14ae4dd.js",
+      "path----8dcc52fd0728f14ae4dd.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-4a07db78870e9819434a.js",
+      "component---src-layouts-index-js-4a07db78870e9819434a.js.map"
+    ],
+    "path---index": [
+      "path---index-3fd0fdd60dcf4cd66c0d.js",
+      "path---index-3fd0fdd60dcf4cd66c0d.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-0a46344f14cca42f8f43.js",
+      "commons-0a46344f14cca42f8f43.js.map"
+    ],
+    "path---about-me": [
+      "path---about-me-a0e39f21c11f6a62c5ab.js",
+      "path---about-me-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-b2ce0c7f9401b1201898.js",
+      "app-b2ce0c7f9401b1201898.js.map"
+    ],
+    "component---src-pages-definitions-js": [
+      "component---src-pages-definitions-js-e755fd95468aa2a13077.js",
+      "component---src-pages-definitions-js-e755fd95468aa2a13077.js.map"
+    ],
+    "component---src-pages-about-me-js": [
+      "component---src-pages-about-me-js-be89098e2946e6686dc5.js",
+      "component---src-pages-about-me-js-be89098e2946e6686dc5.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---definitions": [
+      "path---definitions-a0e39f21c11f6a62c5ab.js",
+      "path---definitions-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
