@@ -32,7 +32,8 @@
     "pug-loader": "^2.3.0",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.14.1",
-    "url-loader": "^0.5.8"
+    "url-loader": "^0.5.8",
+    "webpack": "^2.7.0"
   },
   "browserslist": [
     "last 10 chrome versions"

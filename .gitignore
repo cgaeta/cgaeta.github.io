@@ -1,0 +1,10 @@
+css/index.js
+.eslintrc.js
+.eslintrc
+*.eslintrc
+node_modules/
+test/
+*.config.js
+*.scss
+templates/
+js/dep/main.js
